@@ -22,11 +22,12 @@
 }
 
 .left {
-    /* background-color: blue; */
+    width: 100%;
 }
 
 video.video-nft-two {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     /* position: relative;
     margin-top: 176px; */
     /* box-shadow: 1px 1px 30px 2px rgba(0, 0, 0, 0.5); */
@@ -36,7 +37,7 @@ video.video-nft-two {
 }
 
 .right {
-    /* background-color: red; */
+    width: 100%;
 }
 
 .void-pass ul {
@@ -66,4 +67,18 @@ video.video-nft-two {
 
 .table {
     padding-bottom: 4rem;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        text-align: center;
+    }
+
 }

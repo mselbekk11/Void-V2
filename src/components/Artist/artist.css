@@ -20,13 +20,29 @@
 }
 
 #the-artist .left {
-
+width: 100%;
 }
 
 #the-artist .right {
+width:100%;
+}
 
+img.gallery {
+width: 100%;
 }
 
 #the-artist .social {
     margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #the-artist .section {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        text-align: center;
+    }
+
 }

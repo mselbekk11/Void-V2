@@ -14,11 +14,11 @@ const Crew = () => {
                 <h2>Meet the Crew</h2>
             </div>
 
-            <div className="section">
+            <div className="section one">
 
                 <div className="one">
                     <div className="image">
-                        <img src={CartoonThree} alt="The Void logo" className="gallery"></img>
+                        <img src={CartoonThree} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
                         <h3>Captain</h3>
@@ -29,7 +29,7 @@ const Crew = () => {
 
                 <div className="two">
                     <div className="image">
-                        <img src={CartoonTwo} alt="The Void logo" className="gallery"></img>
+                        <img src={CartoonTwo} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
                         <h3>CHIEF OFFICER</h3>
@@ -39,7 +39,7 @@ const Crew = () => {
 
                 <div className="three">
                     <div className="image">
-                        <img src={CartoonThree} alt="The Void logo" className="gallery"></img>
+                        <img src={CartoonThree} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
                         <h3>CHIEF ENGINEER</h3>
@@ -47,14 +47,11 @@ const Crew = () => {
                     </div>
                 </div>
 
-            </div>
-
-
-            <div className="section">
+            {/* <div className="section two"> */}
 
             <div className="one">
                 <div className="image">
-                    <img src={CartoonThree} alt="The Void logo" className="gallery"></img>
+                    <img src={CartoonThree} alt="The Void logo"></img>
                 </div>
                 <div className="crew-names">
                     <h3>EXEC COMMITTEE</h3>
@@ -65,7 +62,7 @@ const Crew = () => {
 
             <div className="two">
                 <div className="image">
-                    <img src={CartoonTwo} alt="The Void logo" className="gallery"></img>
+                    <img src={CartoonTwo} alt="The Void logo"></img>
                 </div>
                 <div className="crew-names">
                     <h3>COMMS OFFICER</h3>
@@ -75,13 +72,17 @@ const Crew = () => {
 
             <div className="three">
                 <div className="image">
-                    <img src={CartoonThree} alt="The Void logo" className="gallery"></img>
+                    <img src={CartoonThree} alt="The Void logo"></img>
                 </div>
                 <div className="crew-names">
                     <h3>CHIEF NAVIGATOR</h3>
                     <h4>Joseph</h4>
                 </div>
             </div>
+
+            {/* </div> */}
+
+
 
 </div>
 

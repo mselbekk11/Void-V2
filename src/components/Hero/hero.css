@@ -7,6 +7,7 @@
     -webkit-box-align: center;
     align-items: center;
     background: #000;
+    display: none;
 }
 
 .space-box {
@@ -24,7 +25,8 @@
 }
 
 video {
-    object-fit: contain;
+    /* object-fit: contain; */
+    /* overflow-x: hidden; */
 }
 
 /************BACKGROUND************/
@@ -139,10 +141,9 @@ video.video-nft {
 
 /************MINTING************/
 
+@media only screen and (max-width: 900px) {
 
-
-
-
+}
 
 
 

@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-#the-crew .section {
+#the-crew .section.one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
@@ -61,4 +61,29 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #the-crew .section.one {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #the-crew .section.two {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #the-crew .section.one {
+        grid-template-columns: 1fr;
+        grid-gap: 80px;
+    }
+
 }
