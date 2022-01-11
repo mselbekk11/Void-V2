@@ -1,0 +1,189 @@
+/*BACKGROUND*/
+
+.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #000;
+}
+
+.space-box {
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero video.video-test {
+    position: absolute;
+    height: 100vh;
+}
+
+video {
+    object-fit: contain;
+}
+
+/************BACKGROUND************/
+
+
+
+
+.text-box {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 230px;
+}
+
+.text-box h1 {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+
+/************TEXT BOX************/
+
+
+/************NFT BOX************/
+
+
+.nft-box {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 260px;
+}
+
+/************NFT BOX************/
+
+
+/* .text-box img {
+    width: 280px;
+    margin-top: 146px;
+} */
+
+/* .video-box {
+    width: 200px;
+    position: relative;
+} */
+
+/* .video-box video {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 146px;
+} */
+
+video.video-nft {
+    width: 220px;
+    position: relative;
+    margin-top: 173px;
+    /* -webkit-box-shadow: 1px 1px 15px 4px #FFFFFF; 
+box-shadow: 1px 1px 15px 4px #FFFFFF; */
+box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+}
+
+.text-box .mint {
+    margin-top: 30px;
+    /* margin: auto; */
+    width: 100%;
+    text-align: center;
+    /* position:relative; */
+    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text-box .mint h2 {
+    margin-top: 170px; 
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.text-box .mint img {
+    width: 500px;
+    margin-top: 30px;
+}
+
+    
+
+#void .timer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    grid-gap: 1rem;
+}
+
+#void .timer p {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#void .timer p small {
+  font-size: .8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#void .space {
+    background: linear-gradient(51.33deg, #5E03C6 39.03%, #3F33D5 100.2%);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    #void .space {
+        padding: 1rem;
+    }
+  
+    #void .timer {
+    }
+  
+    #void .timer p {
+      font-size: 1rem;
+    }
+    
+    #void .timer p small {
+      font-size: .4rem;
+    }
+  
+    }
+  
+    @media only screen and (max-width: 360px) {
+  
+      #void {
+        padding: 1rem;
+      }
+  
+    }
+  

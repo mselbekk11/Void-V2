@@ -1,0 +1,194 @@
+
+/* TEST */
+
+
+
+.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #000;
+    /* padding: 0 100px; */
+    /* min-height: 1080px; */
+    /* background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641748834/Group_93_1_jaeira.png'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: absolute; */
+}
+
+.space-box {
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    height: 100%; */
+    /* display: flex;
+    -webkit-box-align: center;
+    align-items: center; */
+    /* min-height: 800px; */
+    /* background-size: cover; */
+    /* position: absolute; */
+}
+
+.hero video.video-test {
+    position: absolute;
+    height: 100vh;
+
+        /* position: fixed; */
+        /* position: cover; */
+        /* object-fit: cover; */
+        /* object-fit: contain; */
+        /* right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        min-height: 100%; */
+        /* z-index: -1; */
+        /* position: absolute; */
+}
+
+video {
+    object-fit: contain;
+}
+
+.text-box {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 200px;
+}
+
+.text-box h1 {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+/* .text-box img {
+    width: 280px;
+    margin-top: 146px;
+} */
+
+/* .video-box {
+    width: 200px;
+    position: relative;
+} */
+
+/* .video-box video {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 146px;
+} */
+
+video.video-nft {
+    width: 220px;
+    position: relative;
+    margin-top: 176px;
+    /* -webkit-box-shadow: 1px 1px 15px 4px #FFFFFF; 
+box-shadow: 1px 1px 15px 4px #FFFFFF; */
+box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+}
+
+.text-box .mint {
+    margin-top: 30px;
+    /* margin: auto; */
+    width: 100%;
+    text-align: center;
+    /* position:relative; */
+    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text-box .mint h2 {
+    margin-top: 170px; 
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.text-box .mint img {
+    width: 500px;
+    margin-top: 30px;
+}
+
+    
+
+#void .timer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    grid-gap: 1rem;
+}
+
+#void .timer p {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#void .timer p small {
+  font-size: .8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#void .space {
+    background: linear-gradient(51.33deg, #5E03C6 39.03%, #3F33D5 100.2%);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    #void .space {
+        padding: 1rem;
+    }
+  
+    #void .timer {
+      /* grid-template-columns: 1fr 1fr; */
+    }
+  
+    #void .timer p {
+      font-size: 1rem;
+    }
+    
+    #void .timer p small {
+      font-size: .4rem;
+    }
+  
+    }
+  
+    @media only screen and (max-width: 360px) {
+  
+      #void {
+        padding: 1rem;
+      }
+  
+    }
+  
