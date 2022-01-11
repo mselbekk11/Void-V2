@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.f784cd3c.chunk.css",
-    "main.js": "/static/js/main.30d29b1e.chunk.js",
-    "main.js.map": "/static/js/main.30d29b1e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c0c6859c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c0c6859c.js.map",
-    "static/js/2.51127aaa.chunk.js": "/static/js/2.51127aaa.chunk.js",
-    "static/js/2.51127aaa.chunk.js.map": "/static/js/2.51127aaa.chunk.js.map",
-    "static/js/3.94000061.chunk.js": "/static/js/3.94000061.chunk.js",
-    "static/js/3.94000061.chunk.js.map": "/static/js/3.94000061.chunk.js.map",
+    "main.css": "/static/css/main.8c09170b.chunk.css",
+    "main.js": "/static/js/main.decbcadf.chunk.js",
+    "main.js.map": "/static/js/main.decbcadf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.efeee934.js",
+    "runtime-main.js.map": "/static/js/runtime-main.efeee934.js.map",
+    "static/css/2.d0ac3f2a.chunk.css": "/static/css/2.d0ac3f2a.chunk.css",
+    "static/js/2.0867a192.chunk.js": "/static/js/2.0867a192.chunk.js",
+    "static/js/2.0867a192.chunk.js.map": "/static/js/2.0867a192.chunk.js.map",
+    "static/js/3.90d3e726.chunk.js": "/static/js/3.90d3e726.chunk.js",
+    "static/js/3.90d3e726.chunk.js.map": "/static/js/3.90d3e726.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f784cd3c.chunk.css.map": "/static/css/main.f784cd3c.chunk.css.map",
-    "static/js/2.51127aaa.chunk.js.LICENSE.txt": "/static/js/2.51127aaa.chunk.js.LICENSE.txt"
+    "static/css/2.d0ac3f2a.chunk.css.map": "/static/css/2.d0ac3f2a.chunk.css.map",
+    "static/css/main.8c09170b.chunk.css.map": "/static/css/main.8c09170b.chunk.css.map",
+    "static/js/2.0867a192.chunk.js.LICENSE.txt": "/static/js/2.0867a192.chunk.js.LICENSE.txt",
+    "static/media/cartoon-one.a8ad2b42.png": "/static/media/cartoon-one.a8ad2b42.png",
+    "static/media/cartoon-three.19ccff8b.png": "/static/media/cartoon-three.19ccff8b.png",
+    "static/media/cartoon-two.e7118521.png": "/static/media/cartoon-two.e7118521.png",
+    "static/media/gallery.e151af39.png": "/static/media/gallery.e151af39.png",
+    "static/media/planet-3.3873efe9.png": "/static/media/planet-3.3873efe9.png",
+    "static/media/roadmap.8674a213.png": "/static/media/roadmap.8674a213.png",
+    "static/media/table.2126f4ff.png": "/static/media/table.2126f4ff.png",
+    "static/media/wallet.944970d1.png": "/static/media/wallet.944970d1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0c6859c.js",
-    "static/js/2.51127aaa.chunk.js",
-    "static/css/main.f784cd3c.chunk.css",
-    "static/js/main.30d29b1e.chunk.js"
+    "static/js/runtime-main.efeee934.js",
+    "static/css/2.d0ac3f2a.chunk.css",
+    "static/js/2.0867a192.chunk.js",
+    "static/css/main.8c09170b.chunk.css",
+    "static/js/main.decbcadf.chunk.js"
   ]
 }
