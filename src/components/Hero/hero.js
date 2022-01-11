@@ -16,7 +16,7 @@ const Hero = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('February 01 2022 00:00:00').getTime();
+        const countdownDate = new Date('February 08 2022 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -73,6 +73,29 @@ const Hero = () => {
                     Your browser does not support the video tag.
                     </video>
                 </div>
+            </div>
+
+
+            <div className="minting">
+                <h2>Departure in</h2>
+                    <div className="timer">
+                    <div className="days space">
+                    <p>{timerDays}</p>
+                    <p><small>Days</small></p>
+                    </div>
+                    <div className="hours space">
+                    <p>{timerHours}</p>
+                    <p><small>Hours</small></p>
+                    </div>
+                    <div className="mins space">
+                    <p>{timerMinutes}</p>
+                    <p><small>Mins</small></p>
+                    </div>
+                    <div className="secs space">
+                    <p>{timerSeconds}</p>
+                    <p><small>Secs</small></p>
+                    </div>
+                    </div>
             </div>
 
 

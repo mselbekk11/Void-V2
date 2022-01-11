@@ -70,65 +70,40 @@ video {
     top: 260px;
 }
 
-/************NFT BOX************/
-
-
-/* .text-box img {
-    width: 280px;
-    margin-top: 146px;
-} */
-
-/* .video-box {
-    width: 200px;
-    position: relative;
-} */
-
-/* .video-box video {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin-top: 146px;
-} */
-
 video.video-nft {
     width: 220px;
     position: relative;
     margin-top: 173px;
-    /* -webkit-box-shadow: 1px 1px 15px 4px #FFFFFF; 
-box-shadow: 1px 1px 15px 4px #FFFFFF; */
-box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
-border-radius: 10px;
+    box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
-.text-box .mint {
-    margin-top: 30px;
-    /* margin: auto; */
+/************NFT BOX************/
+
+
+/************MINTING************/
+
+.minting{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    text-align: center;
-    /* position:relative; */
-    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100%;
+    position: absolute;
+    bottom:-60px;
+    height: 200px;
+    /* background-color: #3F33D5; */
+    /* background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png'); */
+    /* min-height: 500px; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
 }
 
-
-.text-box .mint h2 {
-    margin-top: 170px; 
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    color: rgb(180, 180, 180);
-    text-transform: uppercase;
-    letter-spacing: 10px;
+.minting h2 {
+    color: #fff;
 }
-
-.text-box .mint img {
-    width: 500px;
-    margin-top: 30px;
-}
-
-    
 
 #void .timer {
     display: grid;
@@ -136,8 +111,9 @@ border-radius: 10px;
     max-width: 600px;
     width: 100%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 0px;
     grid-gap: 1rem;
+    text-align: center;
 }
 
 #void .timer p {
@@ -145,6 +121,7 @@ border-radius: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
+  margin-bottom: 0rem!important;
 }
 
 #void .timer p small {
@@ -159,6 +136,15 @@ border-radius: 10px;
     border-radius: 10px;
     padding: 2rem;
 }
+
+/************MINTING************/
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px) {
     
@@ -187,3 +173,58 @@ border-radius: 10px;
   
     }
   
+
+
+
+
+
+
+/* .text-box img {
+    width: 280px;
+    margin-top: 146px;
+} */
+
+/* .video-box {
+    width: 200px;
+    position: relative;
+} */
+
+/* .video-box video {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 146px;
+} */
+
+
+
+/* 
+.text-box .mint {
+    margin-top: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    position:relative;
+    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text-box .mint h2 {
+    margin-top: 170px; 
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.text-box .mint img {
+    width: 500px;
+    margin-top: 30px;
+}
+
+     */
