@@ -85,6 +85,14 @@
         margin-bottom: 0rem!important;
         font-size: 0.6rem;
     }
+
+    .accordion .accordion-item .title:after {
+        display: none!important;
+    }
+
+    .accordion-item button {
+        letter-spacing: 2px;
+    }
 }
 
 
