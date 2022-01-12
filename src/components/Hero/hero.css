@@ -7,7 +7,7 @@
     -webkit-box-align: center;
     align-items: center;
     background: #000;
-    display: none;
+    /* display: none; */
 }
 
 .space-box {
@@ -96,6 +96,7 @@ video.video-nft {
     position: absolute;
     bottom:-60px;
     height: 200px;
+    padding: 0px 20px;
     /* background-color: #3F33D5; */
     /* background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png'); */
     /* min-height: 500px; */
@@ -157,11 +158,11 @@ video.video-nft {
     }
   
     #void .timer p {
-      font-size: 1rem;
+      font-size: .9rem;
     }
     
     #void .timer p small {
-      font-size: .4rem;
+      font-size: .5rem;
     }
   
     }
