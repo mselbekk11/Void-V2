@@ -75,22 +75,29 @@
 }
 
 
-@media only screen and (max-width: 1010px) {
-
-  #faq {
-      margin-bottom: 2rem;
-      padding: 2rem;
-  }
-
-}
-
 @media only screen and (max-width: 800px) {
-  .accordion-item button {
-    font-size: 1.2rem;
+    .accordion-item button {
+        font-size:0.6rem;
+    }
+
+    .accordion .accordion-item .panel p {
+        padding: 18px;
+        margin-bottom: 0rem!important;
+        font-size: 0.6rem;
+    }
 }
 
-  #faq p {
-    font-size: 1.2rem;
-  } 
+
+@media only screen and (max-width: 600px) {
+    .accordion-item button {
+        font-size:0.5rem;
+    }
+
+    .accordion .accordion-item .panel p {
+        padding: 18px;
+        margin-bottom: 0rem!important;
+        font-size: 0.5rem;
+    }
 }
+
 

@@ -82,3 +82,22 @@ video.video-nft-two {
     }
 
 }
+
+@media only screen and (max-width: 720px) {
+    .void-pass li {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        /* line-height: 55px; */
+        padding: 0px 0 0px 18px;
+        font-size: 0.6rem;
+    }
+
+    .void-pass {
+        padding: 60px 40px;
+
+    }
+
+}

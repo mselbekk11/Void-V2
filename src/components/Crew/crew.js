@@ -28,7 +28,7 @@ const Crew = () => {
 
 
                 <div className="two">
-                    <div className="image">
+                    <div className="image small">
                         <img src={CartoonTwo} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
@@ -61,7 +61,7 @@ const Crew = () => {
 
 
             <div className="two">
-                <div className="image">
+                <div className="image small">
                     <img src={CartoonTwo} alt="The Void logo"></img>
                 </div>
                 <div className="crew-names">

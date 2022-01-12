@@ -36,6 +36,10 @@
     justify-content: center;
 }
 
+#the-crew .image img {
+    width: 100%;
+}
+
 #the-crew .crew-names {
     text-align: center;
     display: flex;
@@ -80,10 +84,26 @@
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
     #the-crew .section.one {
         grid-template-columns: 1fr;
         grid-gap: 80px;
+    }
+
+    #the-crew .image img {
+        width: 80px;
+    }
+
+    #the-crew .image.small img {
+        width: 60px;
+    }
+
+    #the-crew h3 {
+        font-size: 0.5rem;
+    }
+
+    #the-crew h4 {
+        font-size: 0.5rem;
     }
 
 }
