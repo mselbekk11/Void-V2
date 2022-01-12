@@ -88,6 +88,17 @@
 }
 
 
+@media only screen and (max-width: 720px) {
+
+    #faq {
+        padding: 60px 20px;
+
+    }
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
     .accordion-item button {
         font-size:0.5rem;

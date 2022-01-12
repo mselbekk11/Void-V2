@@ -53,3 +53,13 @@ width: 100%;
 }
 
 }
+
+
+@media only screen and (max-width: 720px) {
+
+    .artist {
+        padding: 60px 20px;
+
+    }
+
+}

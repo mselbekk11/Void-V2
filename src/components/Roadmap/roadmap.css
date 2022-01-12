@@ -28,3 +28,17 @@
 #the-roadmap img {
     width: 100%;
 }
+
+
+@media only screen and (max-width: 720px) {
+
+    .roadmap {
+        padding: 60px 20px;
+
+    }
+
+    #the-roadmap .section {
+        padding-top: 20px;
+    }
+
+}
