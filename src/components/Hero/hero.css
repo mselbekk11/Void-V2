@@ -41,8 +41,8 @@ video {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         position: absolute;
         top: 130px;
 }
@@ -68,10 +68,11 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     position: absolute;
-    top: 340px;
+    /* top: 340px; */
+    bottom: 320px;
 }
 
 video.video-nft {
@@ -93,8 +94,8 @@ video.video-nft {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     position: absolute;
     bottom:20px;
     height: 200px;
@@ -162,7 +163,7 @@ video.video-nft {
     } */
 
     .nft-box {
-        top: 380px;
+        bottom: 350px;
     }
     
     video.video-nft {
