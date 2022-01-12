@@ -92,6 +92,7 @@
 
     .accordion-item button {
         letter-spacing: 2px;
+        line-height: 15px;
     }
 }
 
