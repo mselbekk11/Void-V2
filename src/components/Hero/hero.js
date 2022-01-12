@@ -54,7 +54,7 @@ const Hero = () => {
 
             <div className="space-box">
 
-                <video className="video-test" autoplay="autoplay" muted loop>
+                <video className="video-test" autoplay="" muted loop="" playsinline="">
             <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641749454/bg.2bc8c652_egdvao.mp4" type="video/mp4"></source>
             <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641749454/bg.2bc8c652_egdvao.mp4" type="video/ogg"></source>
             Your browser does not support the video tag.
