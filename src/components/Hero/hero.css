@@ -157,11 +157,11 @@ video.video-nft {
 
 @media only screen and (max-width: 900px) {
 
-    /* .nft-box {
+    .nft-box {
         display: none;
     }
 
-    .hero video.video-test {
+    /* .hero video.video-test {
         display: none;
     } */
 
@@ -177,6 +177,14 @@ video.video-nft {
 
     .minting{
         bottom: 0px;
+    }
+
+    .minting h3 {
+        font-size: 0.7rem;
+    }
+
+    .text-box {
+        top: 70px;
     }
 
 
