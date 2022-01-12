@@ -158,12 +158,9 @@ video.video-nft {
 
 @media only screen and (max-width: 900px) {
 
-    /* .nft-box {
-        display: none;
-    } */
-
     .nft-box {
-        bottom: 230px;
+        /* bottom: 230px; */
+        display: none;
     }
     
     video.video-nft {
