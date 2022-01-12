@@ -17,6 +17,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .hero video.video-test {
@@ -42,7 +43,7 @@ video {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 230px;
+        top: 130px;
 }
 
 .text-box h1 {
@@ -69,7 +70,7 @@ video {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 260px;
+    top: 180px;
 }
 
 video.video-nft {
@@ -94,7 +95,7 @@ video.video-nft {
     width: 100%;
     height: 100%;
     position: absolute;
-    bottom:-60px;
+    bottom:0px;
     height: 200px;
     padding: 0px 20px;
     /* background-color: #3F33D5; */
@@ -104,8 +105,12 @@ video.video-nft {
     background-position: center; */
 }
 
-.minting h2 {
-    color: #fff;
+.minting h2.departure {
+    color: #fff!important;
+    background: none;
+    -webkit-text-fill-color:none;
+        -moz-background-clip: none;
+        -webkit-background-clip: none;
 }
 
 #void .timer {
@@ -154,6 +159,12 @@ video.video-nft {
 
     .text-box h1 {
         font-size: 1rem;
+    }
+
+    .space-box {
+        background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641950276/Group_77_ceebwh.png');
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 }

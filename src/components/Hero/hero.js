@@ -77,7 +77,7 @@ const Hero = () => {
 
 
             <div className="minting">
-                <h2>Departure in</h2>
+                <h2 className="departure">Departure in</h2>
                     <div className="timer">
                     <div className="days space">
                     <p>{timerDays}</p>
