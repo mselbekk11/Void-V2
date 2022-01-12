@@ -162,7 +162,8 @@ video.video-nft {
         /* bottom: 230px; */
         /* left: 40%;
         bottom: 40%; */
-        display: none;
+        bottom: 35%;
+        /* display: none; */
     }
     
     video.video-nft {
