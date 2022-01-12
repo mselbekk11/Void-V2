@@ -71,13 +71,13 @@ video {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 180px;
+    top: 340px;
 }
 
 video.video-nft {
     width: 220px;
     position: relative;
-    margin-top: 173px;
+    /* margin-top: 173px; */
     box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
     -webkit-box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -157,13 +157,19 @@ video.video-nft {
 
 @media only screen and (max-width: 900px) {
 
-    .nft-box {
-        display: none;
-    }
-
-    /* .hero video.video-test {
+    /* .nft-box {
         display: none;
     } */
+
+    .nft-box {
+        top: 380px;
+    }
+    
+    video.video-nft {
+        width: 160px;
+    }
+
+
 
     .text-box h1 {
         font-size: 1rem;
