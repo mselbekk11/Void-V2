@@ -8,10 +8,13 @@ import Roadmap from '../../components/Roadmap/roadmap';
 import Faqs from '../../components/Faqs/faqs';
 import Footer from '../../components/Footer/footer';
 
+import Nav from '../../components/Nav/nav';
+
 
 const Homepage = () => {
     return (
         <div className="homepage">
+            <Nav />
             <Hero />
             <VoidPass />
             <Artist />
