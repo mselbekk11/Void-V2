@@ -105,12 +105,19 @@ video.video-nft {
     background-position: center; */
 }
 
-.minting h2.departure {
-    color: #fff!important;
+.minting h3 {
+    /* color: #fff!important;
     background: none;
     -webkit-text-fill-color:none;
         -moz-background-clip: none;
-        -webkit-background-clip: none;
+        -webkit-background-clip: none; */
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-bottom: 2rem;
+        color: #fff;
 }
 
 #void .timer {
