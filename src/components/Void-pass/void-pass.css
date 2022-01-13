@@ -166,4 +166,13 @@ video.video-nft-two {
 
     }
 
+    .minting h3 {
+        font-size: 0.9rem;
+        margin: 2rem 0rem;
+    }
+
+    .section {
+        grid-gap: 50px;
+    }
+
 }
