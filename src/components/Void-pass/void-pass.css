@@ -82,7 +82,7 @@ video.video-nft-two {
     height: 100%; */
     /* position: absolute; */
     /* bottom:20px; */
-    height: 200px;
+    /* height: 200px; */
     padding: 0px 20px;
 }
 
@@ -104,7 +104,7 @@ video.video-nft-two {
 #void-pass .timer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 600px;
+    /* max-width: 600px; */
     width: 100%;
     margin: auto;
     margin-top: 0px;
@@ -166,6 +166,10 @@ video.video-nft-two {
 
     }
 
+    .minting {
+        padding: 0px;
+    }
+
     .minting h3 {
         font-size: 0.9rem;
         margin: 2rem 0rem;
@@ -173,6 +177,10 @@ video.video-nft-two {
 
     .section {
         grid-gap: 50px;
+    }
+
+    #void-pass .timer {
+        grid-template-columns: 1fr 1fr;
     }
 
 }

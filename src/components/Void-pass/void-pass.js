@@ -83,6 +83,9 @@ const VoidPass = () => {
                 </div>
 
                 </div>
+
+
+                
                 <div className="right">
                 <h2>WHAT IS A VOID PASS?</h2>
                 <p>THE VOID PASS IS YOUR KEY TO UNLOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE VOID MARKETPLACE AND ITS PARTNERS</p>
@@ -101,6 +104,9 @@ const VoidPass = () => {
                     <li>UNLOCK SPECIAL CONTENT</li>
                 </ul>
                 </div>
+
+
+
             </div>
             
         </div>
