@@ -92,11 +92,11 @@ const VoidPass = () => {
                 <h2>OTHER PERKS</h2>
                 <ul>
                     <li>FREE AIRDROPS</li>
-                    <li>WHITELITING FOR EXCLUSIVE PROJECTS</li>
-                    <li>PRIVAT COMMUNITY ACCESS</li>
+                    <li>Whitelisting for exclusive projects</li>
+                    <li>PRIVATE COMMUNITY ACCESS</li>
                     <li>GOVERNANCE</li>
                     <li>SPECIAL PERKS FROM ECOSYTEM PARTNERS</li>
-                    <li>MERCHANDISE!</li>
+                    <li>Merchandise</li>
                     <li>EVENT VIP ACCESS</li>
                     <li>UNLOCK SPECIAL CONTENT</li>
                 </ul>

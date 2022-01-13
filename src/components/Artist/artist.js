@@ -17,8 +17,8 @@ const Artist = () => {
                 <img src={Gallery} alt="The Void logo" className="gallery"></img>
                 </div>
                 <div className="right">
-                    <h2>MEET THE ARTIST: MATERIUM</h2>
-                    <p>THE VOID IS PROUD TO ANNOUNCE THAT WE HAVE PARTNERED WITH RENOWNED ARTIST, MATERIUM, FOR THE CREATION OF OUR VOID PASS. MATERIUMS UNIQUE AND HIGH QUALITY ART WORK IS SOMETHING WE ARE EXCITED TO PROVIDE OUR COMMUNITY AND WE ARE EVEN MORE EXCITED TO HAVE HIM AS ONE OF OUR TRUSTED ADVISORS ON THE VOID GOVERNANCE COUNCIL.</p>
+                    <h2>MEET THE ARTIST: MARTERIUM</h2>
+                    <p>THE VOID IS PROUD TO ANNOUNCE THAT WE HAVE PARTNERED WITH RENOWNED ARTIST, MARTERIUM, FOR THE CREATION OF OUR VOID PASS. MARTERIUM'S UNIQUE AND HIGH QUALITY ART WORK IS SOMETHING WE ARE EXCITED TO PROVIDE OUR COMMUNITY AND WE ARE EVEN MORE EXCITED TO HAVE HIM AS ONE OF OUR TRUSTED ADVISORS ON THE VOID GOVERNANCE COUNCIL.</p>
                     <div className="icons">
 
                     <a href="https://www.instagram.com/marterium/" target="blank"><img src={IconOne} alt="The Void logo" className="social"></img></a>

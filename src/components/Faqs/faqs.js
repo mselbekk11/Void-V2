@@ -56,7 +56,7 @@ const Faq = () => (
   
   const DummyContentOne = () => (
     <p>
-      The Void is a low-fee, interoperable NFT marketplace being built on Constellations Hypergraph Network. With the creation of a new NFT token standard 'L_0', we aim to create an interoperable, multi-currency, low-fee marketplace which allows artists and businesses the flexibility to customise their own digital NFT storefront in order to showcase their unique and personal brand.
+      The Void is a low-fee, interoperable NFT marketplace being built on Constellation’s Hypergraph Network. With the creation of a new NFT token standard 'L_0', we aim to create an interoperable, multi-currency, low-fee marketplace which allows artists and businesses the flexibility to customise their own digital NFT storefront in order to showcase their unique and personal brand.
     </p>
   );
 
@@ -74,19 +74,19 @@ const Faq = () => (
 
   const DummyContentFour = () => (
     <p>
-      You can mint your Void Pass on enterthevoid.io once the countdown has ended. You will need to connect to your MetaMask wallet through this website which will allow you to purchase the Void Pass using Etherium. The cost of the pass is $555 + the gas fees for the transaction. We are using the ERC-1155 token standard for our Void Pass.
+      You can mint your Void Pass on enterthevoid.io once the countdown has ended. You will need to connect to your MetaMask wallet through this website which will allow you to purchase the Void Pass using Ethereum. The cost of the pass is $555 + the gas fees for the transaction. We are using the ERC-1155 token standard for our Void Pass.
     </p>
   );
 
   const DummyContentFive = () => (
     <p>
-      The Void Marketplace will open in stages with a beta marketplace on Etherium with a bridge onto Constellations Hypergraph Network. This will happen in Phase 3 of our roadmap.
+      The Void Marketplace will open in stages with a beta marketplace on Ethereum in Q2 2022, followed by a bridge onto Constellation’s Hypergraph network.
     </p>
   );
 
   const DummyContentSix = () => (
     <p>
-      How do I join the Void Governance Council? The Void selects the advisors who sit on the Void Governance Council with 5 additional members who make up our Board of Directors from our Void Pass Community. The Void Pass holders run a bi-yearly election for the opportunity to sit on The Void Governance Council and represent the community.
+      To join the Void Governance Council, you must either be selected by the Void or voted in by the Void Pass Community. The Void pass holders run a bi-yearly election for the opportunity to sit on the board of directors and represent the community.
     </p>
   );
 

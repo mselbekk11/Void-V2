@@ -79,6 +79,7 @@ const Crew = () => {
                     <h4>Joseph</h4>
                 </div>
             </div>
+            
 
             {/* </div> */}
 
