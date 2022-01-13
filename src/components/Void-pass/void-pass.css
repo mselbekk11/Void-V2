@@ -179,8 +179,20 @@ video.video-nft-two {
         grid-gap: 50px;
     }
 
-    #void-pass .timer {
+    /* #void-pass .timer {
         grid-template-columns: 1fr 1fr;
+    } */
+
+    #void-pass .space {
+        padding: 0.5rem;
+    }
+
+    #void-pass .timer p {
+        font-size: 0.8rem;
+    }
+
+    #void-pass .timer p small {
+        font-size: 0.6rem;
     }
 
 }
