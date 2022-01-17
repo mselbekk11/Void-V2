@@ -10,6 +10,7 @@ import IconFive from '../../assets/img/005.png';
 
 
 const Artist = () => {
+
     return (
         <div className="artist" id="the-artist">
             <div className="section">

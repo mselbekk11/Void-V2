@@ -9,6 +9,7 @@ import Faqs from '../../components/Faqs/faqs';
 import Footer from '../../components/Footer/footer';
 
 import Nav from '../../components/Nav/nav';
+// import Carousel from '../../components/Carousel/carousel';
 
 
 const Homepage = () => {
@@ -22,6 +23,7 @@ const Homepage = () => {
             <Roadmap />
             <Faqs />
             <Footer />
+            {/* <Carousel /> */}
         </div>
     )
 }
